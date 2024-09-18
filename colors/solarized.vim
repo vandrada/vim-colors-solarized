@@ -992,6 +992,16 @@ exe "hi! pandocMetadataKey"              .s:fg_blue   .s:bg_none   .s:fmt_none
 exe "hi! pandocMetadata"                 .s:fg_blue   .s:bg_none   .s:fmt_bold
 hi! link pandocMetadataTitle             pandocMetadata
 
+" Rainbow highlighting https://github.com/HiPhish/rainbow-delimiters.nvim "{{{
+exe "hi! RainbowDelimeterRed" .s:fmt_none .s:fg_red .s:bg_none
+exe "hi! RainbowDelimiterYellow" .s:fmt_none .s:fg_yellow .s:bg_none
+exe "hi! RainbowDelimiterBlue" .s:fmt_none .s:fg_blue .s:bg_none
+exe "hi! RainbowDelimiterOrange" .s:fmt_none .s:fg_orange .s:bg_none
+exe "hi! RainbowDelimiterGreen" .s:fmt_none .s:fg_green .s:bg_none
+exe "hi! RainbowDelimiterViolet" .s:fmt_none .s:fg_violet .s:bg_none
+exe "hi! RainbowDelimiterCyan" .s:fmt_none .s:fg_cyan .s:bg_none
+"}}}
+
 "}}}
 " Utility autocommand "{{{
 " ---------------------------------------------------------------------
